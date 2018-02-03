@@ -124,9 +124,11 @@ AddOutputFilter chunkFilter
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
+		<Item Name="Drive  positive distance with encoders.vi" Type="VI" URL="../Drive  positive distance with encoders.vi"/>
 		<Item Name="DriveMotors.ctl" Type="VI" URL="../FRC SimulatedRSC/DriveMotors.ctl"/>
 		<Item Name="DriveSet6(SubVI).vi" Type="VI" URL="../DriveSet6(SubVI).vi"/>
 		<Item Name="Dual Arcade (SubVI).vi" Type="VI" URL="../Dual Arcade (SubVI).vi"/>
+		<Item Name="feet to encoder ticsk.vi" Type="VI" URL="../feet to encoder ticsk.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
