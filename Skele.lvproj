@@ -56,7 +56,7 @@
 		<Property Name="target.IsRemotePanelSupported" Type="Bool">true</Property>
 		<Property Name="target.RTCPULoadMonitoringEnabled" Type="Bool">true</Property>
 		<Property Name="target.RTDebugWebServerHTTPPort" Type="Int">8001</Property>
-		<Property Name="target.RTTarget.ApplicationPath" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
+		<Property Name="target.RTTarget.ApplicationPath" Type="Path">/D/ni-rt/startup/startup.rtexe</Property>
 		<Property Name="target.RTTarget.EnableFileSharing" Type="Bool">true</Property>
 		<Property Name="target.RTTarget.IPAccess" Type="Str">+*</Property>
 		<Property Name="target.RTTarget.LaunchAppAtBoot" Type="Bool">true</Property>
@@ -794,7 +794,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Z900_navX_Util_LittleEndian_to_BigEndian.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/_Util/Z900_navX_Util_LittleEndian_to_BigEndian.vi"/>
 				<Item Name="Z900_navX_ZeroVectorTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/_TypeDefs/Z900_navX_ZeroVectorTypeDef.ctl"/>
 			</Item>
-			<Item Name="6 motor dirive.vi" Type="VI" URL="../6 motor dirive.vi"/>
+			<Item Name="6 motor drive.vi" Type="VI" URL="../6 motor drive.vi"/>
 			<Item Name="at Max velocity.vi" Type="VI" URL="../at Max velocity.vi"/>
 			<Item Name="Average.vi" Type="VI" URL="../Average.vi"/>
 			<Item Name="Collision Detection.vi" Type="VI" URL="../Collision Detection.vi"/>
@@ -840,6 +840,7 @@ AddOutputFilter chunkFilter
 			<Item Name="DriveDual.vi" Type="VI" URL="../DriveDual.vi"/>
 			<Item Name="DriverLib.ctl" Type="VI" URL="../../../../../../Public/Documents/Cross The Road Electronics/Phoenix-LabVIEW/Controls/DriverLib.ctl"/>
 			<Item Name="Equilibrium (SubVI).vi" Type="VI" URL="../Equilibrium (SubVI).vi"/>
+			<Item Name="feet to encoder ticks.vi" Type="VI" URL="../feet to encoder ticks.vi"/>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -885,7 +886,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/D/ni-rt/startup</Property>
-				<Property Name="Bld_version.build" Type="Int">11</Property>
+				<Property Name="Bld_version.build" Type="Int">15</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/D/ni-rt/startup/startup.rtexe</Property>
