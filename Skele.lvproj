@@ -820,7 +820,6 @@ AddOutputFilter chunkFilter
 				<Item Name="Z900_navX_ZeroVectorTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/_TypeDefs/Z900_navX_ZeroVectorTypeDef.ctl"/>
 			</Item>
 			<Item Name="6 motor drive.vi" Type="VI" URL="../6 motor drive.vi"/>
-			<Item Name="at Max velocity.vi" Type="VI" URL="../at Max velocity.vi"/>
 			<Item Name="Collision Detection.vi" Type="VI" URL="../Collision Detection.vi"/>
 			<Item Name="Compute Gyro Turn.vi" Type="VI" URL="../Compute Gyro Turn.vi"/>
 			<Item Name="Drive distance with encoders.vi" Type="VI" URL="../Drive distance with encoders.vi"/>
@@ -850,12 +849,9 @@ AddOutputFilter chunkFilter
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Push block to shooter.vi" Type="VI" URL="../Push block to shooter.vi"/>
-			<Item Name="Raise Shooter.vi" Type="VI" URL="../Raise Shooter.vi"/>
 			<Item Name="Rev Up shooter.vi" Type="VI" URL="../Rev Up shooter.vi"/>
-			<Item Name="Rotations to encoder.vi" Type="VI" URL="../Rotations to encoder.vi"/>
 			<Item Name="Rumble Joystick 0 or Joystick 1.vi" Type="VI" URL="../Rumble Joystick 0 or Joystick 1.vi"/>
 			<Item Name="SetShooter(SubVI).vi" Type="VI" URL="../SetShooter(SubVI).vi"/>
-			<Item Name="Shoot Straight.vi" Type="VI" URL="../Shoot Straight.vi"/>
 			<Item Name="Shoot Switch.vi" Type="VI" URL="../Shoot Switch.vi"/>
 			<Item Name="Turn 20 Degrees Right (SubVI).vi" Type="VI" URL="../Turn 20 Degrees Right (SubVI).vi"/>
 		</Item>
@@ -876,7 +872,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">52</Property>
+				<Property Name="Bld_version.build" Type="Int">58</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
