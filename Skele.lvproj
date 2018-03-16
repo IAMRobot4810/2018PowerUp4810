@@ -810,7 +810,6 @@ AddOutputFilter chunkFilter
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="location of switch and scale.vi" Type="VI" URL="../location of switch and scale.vi"/>
-			<Item Name="Manual Shoot High.vi" Type="VI" URL="../Manual Shoot High.vi"/>
 			<Item Name="My OWn PID.vi" Type="VI" URL="../My OWn PID.vi"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -829,7 +828,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Profile Auton - Intake.vi" Type="VI" URL="../Profile Auton - Intake.vi"/>
 			<Item Name="Profile Auton - Shooting Mode.vi" Type="VI" URL="../Profile Auton - Shooting Mode.vi"/>
 			<Item Name="Push block to shooter.vi" Type="VI" URL="../Push block to shooter.vi"/>
-			<Item Name="recallMovesOnRobot.vi" Type="VI" URL="../recallMovesOnRobot.vi"/>
+			<Item Name="recallMovesOnRobot.vi" Type="VI" URL="../autoProfiling/recallMovesOnRobot.vi"/>
 			<Item Name="Rev Up shooter.vi" Type="VI" URL="../Rev Up shooter.vi"/>
 			<Item Name="Rumble Joystick 0 or Joystick 1.vi" Type="VI" URL="../Rumble Joystick 0 or Joystick 1.vi"/>
 			<Item Name="SetShooter(SubVI).vi" Type="VI" URL="../SetShooter(SubVI).vi"/>
