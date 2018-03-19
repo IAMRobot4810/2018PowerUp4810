@@ -885,7 +885,12 @@ AddOutputFilter chunkFilter
 =======
 			<Item Name="My OWn PID.vi" Type="VI" URL="../My OWn PID.vi"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 54c899b756e0e953e6e73a4be2cdd5656b268abb
+=======
+			<Item Name="navX Library v2.lvlib" Type="Library" URL="../../../../navx-mxp/labview/navX Library v2/navX Library v2.lvlib"/>
+			<Item Name="NI WPI Serial USB.lvlib" Type="Library" URL="../../../../navx-mxp/labview/NI WPI/NI WPI Serial USB.lvlib"/>
+>>>>>>> parent of 54c899b... Attempts at getting the gyro to work
 =======
 			<Item Name="navX Library v2.lvlib" Type="Library" URL="../../../../navx-mxp/labview/navX Library v2/navX Library v2.lvlib"/>
 			<Item Name="NI WPI Serial USB.lvlib" Type="Library" URL="../../../../navx-mxp/labview/NI WPI/NI WPI Serial USB.lvlib"/>
