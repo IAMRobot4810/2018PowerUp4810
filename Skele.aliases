@@ -2,16 +2,22 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of e93f565... zs
 My Computer = "172.20.10.9"
 =======
 My Computer = "192.168.137.1"
 >>>>>>> 54c899b756e0e953e6e73a4be2cdd5656b268abb
+<<<<<<< HEAD
 =======
 My Computer = "172.22.11.1"
 >>>>>>> parent of 54c899b... Attempts at getting the gyro to work
 =======
 My Computer = "172.22.11.1"
 >>>>>>> parent of 54c899b... Attempts at getting the gyro to work
+=======
+>>>>>>> parent of e93f565... zs
 
 [Target]
 Target = "roboRIO-4810-FRC.local"
