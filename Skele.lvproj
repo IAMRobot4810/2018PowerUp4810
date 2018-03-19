@@ -854,6 +854,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Manual Shoot High.vi" Type="VI" URL="../Manual Shoot High.vi"/>
 			<Item Name="My Own PID.vi" Type="VI" URL="../My Own PID.vi"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 			<Item Name="My OWn PID.vi" Type="VI" URL="../My OWn PID.vi"/>
 <<<<<<< HEAD
@@ -871,6 +872,8 @@ AddOutputFilter chunkFilter
 =======
 >>>>>>> 54c899b756e0e953e6e73a4be2cdd5656b268abb
 >>>>>>> parent of e93f565... zs
+=======
+>>>>>>> parent of 97836b2... nhnm
 =======
 >>>>>>> parent of 97836b2... nhnm
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
