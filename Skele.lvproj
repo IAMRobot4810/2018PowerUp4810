@@ -852,8 +852,8 @@ AddOutputFilter chunkFilter
 			</Item>
 			<Item Name="location of switch and scale.vi" Type="VI" URL="../location of switch and scale.vi"/>
 			<Item Name="Manual Shoot High.vi" Type="VI" URL="../Manual Shoot High.vi"/>
-<<<<<<< HEAD
 			<Item Name="My Own PID.vi" Type="VI" URL="../My Own PID.vi"/>
+<<<<<<< HEAD
 =======
 			<Item Name="My OWn PID.vi" Type="VI" URL="../My OWn PID.vi"/>
 <<<<<<< HEAD
@@ -871,6 +871,8 @@ AddOutputFilter chunkFilter
 =======
 >>>>>>> 54c899b756e0e953e6e73a4be2cdd5656b268abb
 >>>>>>> parent of e93f565... zs
+=======
+>>>>>>> parent of 97836b2... nhnm
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -907,7 +909,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">80</Property>
+				<Property Name="Bld_version.build" Type="Int">78</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
