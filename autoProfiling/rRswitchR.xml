@@ -1,12 +1,12 @@
 <Array>
 <Name>Array</Name>
-<Dimsize>4</Dimsize>
+<Dimsize>8</Dimsize>
 <Cluster>
 <Name>Cluster</Name>
 <NumElts>5</NumElts>
 <DBL>
 <Name>Distance (ft)</Name>
-<Val>10.00000000000000</Val>
+<Val>7.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Angle (degrees)</Name>
@@ -70,7 +70,7 @@
 <NumElts>5</NumElts>
 <DBL>
 <Name>Distance (ft)</Name>
-<Val>5.00000000000000</Val>
+<Val>3.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Angle (degrees)</Name>
@@ -110,7 +110,7 @@
 </DBL>
 <DBL>
 <Name>Time (s)</Name>
-<Val>0.00000000000000</Val>
+<Val>0.50000000000000</Val>
 </DBL>
 <EW>
 <Name>Intake Mode</Name>

@@ -1,3 +1,4 @@
+
 <Array>
 <Name>Array</Name>
 <Dimsize>8</Dimsize>
@@ -6,7 +7,7 @@
 <NumElts>5</NumElts>
 <DBL>
 <Name>Distance (ft)</Name>
-<Val>18.00000000000000</Val>
+<Val>20.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Angle (degrees)</Name>
@@ -42,7 +43,7 @@
 </DBL>
 <DBL>
 <Name>Angle (degrees)</Name>
-<Val>-90.00000000000000</Val>
+<Val>90.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Time (s)</Name>
@@ -126,7 +127,7 @@
 <Choice>Low Scale Shooter</Choice>
 <Choice>Mid Scale Shooter</Choice>
 <Choice>High Scale Shooter</Choice>
-<Val>1</Val>
+<Val>0</Val>
 </EW>
 </Cluster>
 <Cluster>
@@ -134,7 +135,7 @@
 <NumElts>5</NumElts>
 <DBL>
 <Name>Distance (ft)</Name>
-<Val>7.50000000000000</Val>
+<Val>5.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Angle (degrees)</Name>
@@ -198,7 +199,7 @@
 <NumElts>5</NumElts>
 <DBL>
 <Name>Distance (ft)</Name>
-<Val>0.00000000000000</Val>
+<Val>4.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Angle (degrees)</Name>
@@ -206,7 +207,7 @@
 </DBL>
 <DBL>
 <Name>Time (s)</Name>
-<Val>0.50000000000000</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <EW>
 <Name>Intake Mode</Name>
@@ -222,7 +223,7 @@
 <Choice>Low Scale Shooter</Choice>
 <Choice>Mid Scale Shooter</Choice>
 <Choice>High Scale Shooter</Choice>
-<Val>3</Val>
+<Val>0</Val>
 </EW>
 </Cluster>
 <Cluster>
@@ -254,7 +255,7 @@
 <Choice>Low Scale Shooter</Choice>
 <Choice>Mid Scale Shooter</Choice>
 <Choice>High Scale Shooter</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 </Cluster>
 </Array>
