@@ -6,7 +6,7 @@
 <NumElts>5</NumElts>
 <DBL>
 <Name>Distance (ft)</Name>
-<Val>0.00000000000000</Val>
+<Val>9.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Angle (degrees)</Name>
@@ -14,7 +14,7 @@
 </DBL>
 <DBL>
 <Name>Time (s)</Name>
-<Val>0.00000000000000</Val>
+<Val>1.00000000000000</Val>
 </DBL>
 <EW>
 <Name>Intake Mode</Name>
