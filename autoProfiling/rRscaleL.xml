@@ -42,7 +42,7 @@
 </DBL>
 <DBL>
 <Name>Angle (degrees)</Name>
-<Val>90.00000000000000</Val>
+<Val>-90.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Time (s)</Name>
@@ -106,7 +106,7 @@
 </DBL>
 <DBL>
 <Name>Angle (degrees)</Name>
-<Val>-90.00000000000000</Val>
+<Val>90.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Time (s)</Name>
@@ -170,7 +170,7 @@
 </DBL>
 <DBL>
 <Name>Angle (degrees)</Name>
-<Val>-90.00000000000000</Val>
+<Val>90.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Time (s)</Name>

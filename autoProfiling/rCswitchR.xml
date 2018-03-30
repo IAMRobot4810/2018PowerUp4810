@@ -70,7 +70,7 @@
 <NumElts>5</NumElts>
 <DBL>
 <Name>Distance (ft)</Name>
-<Val>17.00000000000000</Val>
+<Val>7.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Angle (degrees)</Name>
@@ -134,7 +134,7 @@
 <NumElts>5</NumElts>
 <DBL>
 <Name>Distance (ft)</Name>
-<Val>20.90000000000000</Val>
+<Val>7.90000000000000</Val>
 </DBL>
 <DBL>
 <Name>Angle (degrees)</Name>
@@ -222,7 +222,7 @@
 <Choice>Low Scale Shooter</Choice>
 <Choice>Mid Scale Shooter</Choice>
 <Choice>High Scale Shooter</Choice>
-<Val>3</Val>
+<Val>1</Val>
 </EW>
 </Cluster>
 </Array>
