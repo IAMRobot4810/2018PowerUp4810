@@ -130,6 +130,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Dual Arcade (SubVI).vi" Type="VI" URL="../Dual Arcade (SubVI).vi"/>
 		<Item Name="feet to encoder ticsk.vi" Type="VI" URL="../feet to encoder ticsk.vi"/>
 		<Item Name="Lower Shooter.vi" Type="VI" URL="../Lower Shooter.vi"/>
+		<Item Name="Motion configurations.vi" Type="VI" URL="/D/Motion configurations.vi"/>
 		<Item Name="MyOwn PID Encoders.vi" Type="VI" URL="../MyOwn PID Encoders.vi"/>
 		<Item Name="Name of Auto List.ctl" Type="VI" URL="../Name of Auto List.ctl"/>
 		<Item Name="Possible Autons.ctl" Type="VI" URL="../Possible Autons.ctl"/>
@@ -747,7 +748,7 @@ AddOutputFilter chunkFilter
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="location of switch and scale.vi" Type="VI" URL="../location of switch and scale.vi"/>
-			<Item Name="My OWn PID Gyro.vi" Type="VI" URL="../../../../Desktop/at bulldogs wed auton mostly works/My OWn PID Gyro.vi"/>
+			<Item Name="My OWn PID Gyro.vi" Type="VI" URL="../My OWn PID Gyro.vi"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
