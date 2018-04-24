@@ -130,12 +130,13 @@ AddOutputFilter chunkFilter
 		<Item Name="Dual Arcade (SubVI).vi" Type="VI" URL="../Dual Arcade (SubVI).vi"/>
 		<Item Name="feet to encoder ticsk.vi" Type="VI" URL="../feet to encoder ticsk.vi"/>
 		<Item Name="Lower Shooter.vi" Type="VI" URL="../Lower Shooter.vi"/>
-		<Item Name="Motion configurations.vi" Type="VI" URL="/D/Motion configurations.vi"/>
+		<Item Name="Motion configurations.vi" Type="VI" URL="../../../Documents/GitHub/2018PowerUp4810/Motion configurations.vi"/>
 		<Item Name="MyOwn PID Encoders.vi" Type="VI" URL="../MyOwn PID Encoders.vi"/>
 		<Item Name="Name of Auto List.ctl" Type="VI" URL="../Name of Auto List.ctl"/>
 		<Item Name="Possible Autons.ctl" Type="VI" URL="../Possible Autons.ctl"/>
 		<Item Name="POV up or downish.vi" Type="VI" URL="../POV up or downish.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
+		<Item Name="SelectAuton Path.vi" Type="VI" URL="../SelectAuton Path.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -731,14 +732,13 @@ AddOutputFilter chunkFilter
 				<Item Name="Z900_navX_Util_LittleEndian_to_BigEndian.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/_Util/Z900_navX_Util_LittleEndian_to_BigEndian.vi"/>
 				<Item Name="Z900_navX_ZeroVectorTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/_TypeDefs/Z900_navX_ZeroVectorTypeDef.ctl"/>
 			</Item>
-			<Item Name="Actual PID.vi" Type="VI" URL="../Actual PID.vi"/>
 			<Item Name="Auton Control.ctl" Type="VI" URL="../Auton Control.ctl"/>
 			<Item Name="Compute Gyro Turn.vi" Type="VI" URL="../Compute Gyro Turn.vi"/>
 			<Item Name="Drive6 (SubVI).vi" Type="VI" URL="../Drive6 (SubVI).vi"/>
 			<Item Name="DriveClose6 (SubVI).vi" Type="VI" URL="../DriveClose6 (SubVI).vi"/>
 			<Item Name="DriveDual.vi" Type="VI" URL="../DriveDual.vi"/>
 			<Item Name="Encoder rotations to feet.vi" Type="VI" URL="../Encoder rotations to feet.vi"/>
-			<Item Name="FindTurnDistanceCamreon.vi" Type="VI" URL="../../../../Desktop/FindTurnDistanceCamreon.vi"/>
+			<Item Name="FindTurnDistanceCamreon.vi" Type="VI" URL="../../FindTurnDistanceCamreon.vi"/>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -785,7 +785,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">139</Property>
+				<Property Name="Bld_version.build" Type="Int">143</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
