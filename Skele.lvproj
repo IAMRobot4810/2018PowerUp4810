@@ -130,7 +130,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Dual Arcade (SubVI).vi" Type="VI" URL="../Dual Arcade (SubVI).vi"/>
 		<Item Name="feet to encoder ticsk.vi" Type="VI" URL="../feet to encoder ticsk.vi"/>
 		<Item Name="Lower Shooter.vi" Type="VI" URL="../Lower Shooter.vi"/>
-		<Item Name="Motion configurations.vi" Type="VI" URL="../../../Documents/GitHub/2018PowerUp4810/Motion configurations.vi"/>
+		<Item Name="Motion configurations.vi" Type="VI" URL="../Motion configurations.vi"/>
 		<Item Name="MyOwn PID Encoders.vi" Type="VI" URL="../MyOwn PID Encoders.vi"/>
 		<Item Name="Name of Auto List.ctl" Type="VI" URL="../Name of Auto List.ctl"/>
 		<Item Name="Possible Autons.ctl" Type="VI" URL="../Possible Autons.ctl"/>
