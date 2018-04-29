@@ -137,6 +137,8 @@ AddOutputFilter chunkFilter
 		<Item Name="POV up or downish.vi" Type="VI" URL="../POV up or downish.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="SelectAuton Path.vi" Type="VI" URL="../SelectAuton Path.vi"/>
+		<Item Name="SImple PID.vi" Type="VI" URL="../../../../Desktop/SImple PID.vi"/>
+		<Item Name="stop stuff operes.vi" Type="VI" URL="../../../../Desktop/stop stuff operes.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -738,7 +740,7 @@ AddOutputFilter chunkFilter
 			<Item Name="DriveClose6 (SubVI).vi" Type="VI" URL="../DriveClose6 (SubVI).vi"/>
 			<Item Name="DriveDual.vi" Type="VI" URL="../DriveDual.vi"/>
 			<Item Name="Encoder rotations to feet.vi" Type="VI" URL="../Encoder rotations to feet.vi"/>
-			<Item Name="FindTurnDistanceCamreon.vi" Type="VI" URL="../../FindTurnDistanceCamreon.vi"/>
+			<Item Name="FindTurnDistanceCamreon.vi" Type="VI" URL="../../../../Desktop/FindTurnDistanceCamreon.vi"/>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -785,7 +787,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">143</Property>
+				<Property Name="Bld_version.build" Type="Int">147</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
