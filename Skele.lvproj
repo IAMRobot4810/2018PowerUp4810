@@ -139,6 +139,7 @@ AddOutputFilter chunkFilter
 		<Item Name="SelectAuton Path.vi" Type="VI" URL="../SelectAuton Path.vi"/>
 		<Item Name="SImple PID.vi" Type="VI" URL="../../../../Desktop/SImple PID.vi"/>
 		<Item Name="stop stuff operes.vi" Type="VI" URL="../../../../Desktop/stop stuff operes.vi"/>
+		<Item Name="use gyro to drive straight.vi" Type="VI" URL="../use gyro to drive straight.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
