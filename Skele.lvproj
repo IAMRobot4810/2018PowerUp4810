@@ -41,6 +41,7 @@
 		<Property Name="host.ResponsivenessCheckPingTimeout" Type="UInt">1000</Property>
 		<Property Name="host.TargetCPUID" Type="UInt">8</Property>
 		<Property Name="host.TargetOSID" Type="UInt">8</Property>
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="target.cleanupVisa" Type="Bool">false</Property>
 		<Property Name="target.DoNotReboot" Type="Bool">true</Property>
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
@@ -126,20 +127,20 @@ AddOutputFilter chunkFilter
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
 		<Item Name="DriveMotors.ctl" Type="VI" URL="../FRC SimulatedRSC/DriveMotors.ctl"/>
-		<Item Name="DriveSet6(SubVI).vi" Type="VI" URL="../DriveSet6(SubVI).vi"/>
-		<Item Name="Dual Arcade (SubVI).vi" Type="VI" URL="../Dual Arcade (SubVI).vi"/>
-		<Item Name="feet to encoder ticsk.vi" Type="VI" URL="../feet to encoder ticsk.vi"/>
-		<Item Name="Lower Shooter.vi" Type="VI" URL="../Lower Shooter.vi"/>
-		<Item Name="Motion configurations.vi" Type="VI" URL="../Motion configurations.vi"/>
-		<Item Name="MyOwn PID Encoders.vi" Type="VI" URL="../MyOwn PID Encoders.vi"/>
+		<Item Name="DriveSet6(SubVI).vi" Type="VI" URL="../Drive Base/DriveSet6(SubVI).vi"/>
+		<Item Name="Dual Arcade (SubVI).vi" Type="VI" URL="../Drive Base/Dual Arcade (SubVI).vi"/>
+		<Item Name="feet to encoder ticsk.vi" Type="VI" URL="../Conversions (of units)/feet to encoder ticsk.vi"/>
+		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
+		<Item Name="Lower Shooter.vi" Type="VI" URL="../Shooter/Lower Shooter.vi"/>
+		<Item Name="Motion configurations.vi" Type="VI" URL="../Auton/Motion configurations.vi"/>
+		<Item Name="MyOwn PID Encoders.vi" Type="VI" URL="../Different fake PIDs/MyOwn PID Encoders.vi"/>
 		<Item Name="Name of Auto List.ctl" Type="VI" URL="../Name of Auto List.ctl"/>
 		<Item Name="Possible Autons.ctl" Type="VI" URL="../Possible Autons.ctl"/>
-		<Item Name="POV up or downish.vi" Type="VI" URL="../POV up or downish.vi"/>
-		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
-		<Item Name="SelectAuton Path.vi" Type="VI" URL="../SelectAuton Path.vi"/>
-		<Item Name="SImple PID.vi" Type="VI" URL="../../../../Desktop/SImple PID.vi"/>
-		<Item Name="stop stuff operes.vi" Type="VI" URL="../../../../Desktop/stop stuff operes.vi"/>
-		<Item Name="use gyro to drive straight.vi" Type="VI" URL="../use gyro to drive straight.vi"/>
+		<Item Name="POV up or downish.vi" Type="VI" URL="../Joysticks/POV up or downish.vi"/>
+		<Item Name="SelectAuton Path.vi" Type="VI" URL="../Auton/SelectAuton Path.vi"/>
+		<Item Name="SImple PID.vi" Type="VI" URL="../Different fake PIDs/SImple PID.vi"/>
+		<Item Name="stop stuff operes.vi" Type="VI" URL="../stop stuff operes.vi"/>
+		<Item Name="use gyro to drive straight.vi" Type="VI" URL="../Drive Base/use gyro to drive straight.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -322,9 +323,6 @@ AddOutputFilter chunkFilter
 				<Item Name="NetComm_ControlWord.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_ControlWord.ctl"/>
 				<Item Name="NetComm_getAllianceStation.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_getAllianceStation.vi"/>
 				<Item Name="NetComm_getControlWord.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_getControlWord.vi"/>
-				<Item Name="NetComm_getJoystickAxes.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_getJoystickAxes.vi"/>
-				<Item Name="NetComm_getJoystickButtons.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_getJoystickButtons.vi"/>
-				<Item Name="NetComm_getJoystickPOVs.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_getJoystickPOVs.vi"/>
 				<Item Name="NetComm_getMatchInfo.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_getMatchInfo.vi"/>
 				<Item Name="NetComm_MatchType.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_MatchType.ctl"/>
 				<Item Name="NetComm_ObserveUserProgramStarting.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_ObserveUserProgramStarting.vi"/>
@@ -533,7 +531,6 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_DriverStationAllianceInfo.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationAllianceInfo.ctl"/>
 				<Item Name="WPI_DriverStationCreate Lib Version File.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationCreate Lib Version File.vi"/>
 				<Item Name="WPI_DriverStationDerivedRobotMode.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationDerivedRobotMode.ctl"/>
-				<Item Name="WPI_DriverStationGame Specific Data.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationGame Specific Data.vi"/>
 				<Item Name="WPI_DriverStationGet Alliance Info.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationGet Alliance Info.vi"/>
 				<Item Name="WPI_DriverStationGet Robot Mode.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationGet Robot Mode.vi"/>
 				<Item Name="WPI_DriverStationGetModeAndStatusInternal.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationGetModeAndStatusInternal.vi"/>
@@ -735,24 +732,23 @@ AddOutputFilter chunkFilter
 				<Item Name="Z900_navX_Util_EncodeProtocol_UnsignedHundredths.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/_Util/Encode Protocol/Z900_navX_Util_EncodeProtocol_UnsignedHundredths.vi"/>
 				<Item Name="Z900_navX_Util_LittleEndian_to_BigEndian.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/_Util/Z900_navX_Util_LittleEndian_to_BigEndian.vi"/>
 				<Item Name="Z900_navX_ZeroVectorTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/_TypeDefs/Z900_navX_ZeroVectorTypeDef.ctl"/>
+				<Item Name="NetComm_getJoystickAxes.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_getJoystickAxes.vi"/>
+				<Item Name="NetComm_getJoystickButtons.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_getJoystickButtons.vi"/>
+				<Item Name="NetComm_getJoystickPOVs.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_getJoystickPOVs.vi"/>
+				<Item Name="WPI_DriverStationGame Specific Data.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationGame Specific Data.vi"/>
 			</Item>
 			<Item Name="Auton Control.ctl" Type="VI" URL="../Auton Control.ctl"/>
-			<Item Name="Compute Gyro Turn.vi" Type="VI" URL="../Compute Gyro Turn.vi"/>
-			<Item Name="Drive6 (SubVI).vi" Type="VI" URL="../Drive6 (SubVI).vi"/>
-			<Item Name="DriveClose6 (SubVI).vi" Type="VI" URL="../DriveClose6 (SubVI).vi"/>
-			<Item Name="DriveDual.vi" Type="VI" URL="../DriveDual.vi"/>
-			<Item Name="Encoder rotations to feet.vi" Type="VI" URL="../Encoder rotations to feet.vi"/>
-			<Item Name="FindTurnDistanceCamreon.vi" Type="VI" URL="../../../../Desktop/FindTurnDistanceCamreon.vi"/>
+			<Item Name="Drive6 (SubVI).vi" Type="VI" URL="../Drive Base/Drive6 (SubVI).vi"/>
+			<Item Name="DriveClose6 (SubVI).vi" Type="VI" URL="../Drive Base/DriveClose6 (SubVI).vi"/>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="JOYSTICK0fix.vi" Type="VI" URL="../JOYSTICK0fix.vi"/>
-			<Item Name="JOYSTICK1fix.vi" Type="VI" URL="../JOYSTICK1fix.vi"/>
+			<Item Name="JOYSTICK0fix.vi" Type="VI" URL="../Joysticks/JOYSTICK0fix.vi"/>
+			<Item Name="JOYSTICK1fix.vi" Type="VI" URL="../Joysticks/JOYSTICK1fix.vi"/>
 			<Item Name="libc.so.6" Type="Document" URL="libc.so.6">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="location of switch and scale.vi" Type="VI" URL="../location of switch and scale.vi"/>
-			<Item Name="My OWn PID Gyro.vi" Type="VI" URL="../My OWn PID Gyro.vi"/>
+			<Item Name="location of switch and scale.vi" Type="VI" URL="../Auton/location of switch and scale.vi"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -765,12 +761,17 @@ AddOutputFilter chunkFilter
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Profile Auton - Angle.vi" Type="VI" URL="../Profile Auton - Angle.vi"/>
-			<Item Name="Profile Auton - Distance.vi" Type="VI" URL="../Profile Auton - Distance.vi"/>
-			<Item Name="Profile Auton - Intake.vi" Type="VI" URL="../Profile Auton - Intake.vi"/>
-			<Item Name="Profile Auton - Shooting Mode.vi" Type="VI" URL="../Profile Auton - Shooting Mode.vi"/>
+			<Item Name="Profile Auton - Angle.vi" Type="VI" URL="../Auton/Profile Auton - Angle.vi"/>
+			<Item Name="Profile Auton - Distance.vi" Type="VI" URL="../Auton/Profile Auton - Distance.vi"/>
+			<Item Name="Profile Auton - Intake.vi" Type="VI" URL="../Auton/Profile Auton - Intake.vi"/>
+			<Item Name="Profile Auton - Shooting Mode.vi" Type="VI" URL="../Auton/Profile Auton - Shooting Mode.vi"/>
 			<Item Name="recallMovesOnRobot.vi" Type="VI" URL="../autoProfiling/recallMovesOnRobot.vi"/>
-			<Item Name="Rev Up shooter.vi" Type="VI" URL="../Rev Up shooter.vi"/>
+			<Item Name="Rev Up shooter.vi" Type="VI" URL="../Shooter/Rev Up shooter.vi"/>
+			<Item Name="Encoder rotations to feet.vi" Type="VI" URL="../Conversions (of units)/Encoder rotations to feet.vi"/>
+			<Item Name="DriveDual.vi" Type="VI" URL="../Drive Base/DriveDual.vi"/>
+			<Item Name="FindTurnDistanceCamreon.vi" Type="VI" URL="../Auton/FindTurnDistanceCamreon.vi"/>
+			<Item Name="Compute Gyro Turn.vi" Type="VI" URL="../Auton/Compute Gyro Turn.vi"/>
+			<Item Name="My OWn PID Gyro.vi" Type="VI" URL="../Different fake PIDs/My OWn PID Gyro.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
